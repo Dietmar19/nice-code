@@ -9,10 +9,7 @@ Created on Fri Dec  3 17:40:12 2021
 
 automarken=["Audi","Skoda","SEAT","VW"]
 suche = input("Bitte Marke eingeben:")
-for 
-
-
- in automarken:
+for x in automarken:
 
     if x == suche:
         print("Marke gefunden")
