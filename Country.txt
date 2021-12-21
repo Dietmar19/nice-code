@@ -1,3 +1,3 @@
-Spain Spanien
-Germany Deutschland
-France Frankreich
+Spain;Spanien
+Germany;Deutschland
+France;Frankreich
