@@ -8,6 +8,7 @@ dic= {"Name": "Baumann", "Vorname" : "Dietmar", "Age": 63, "Größe": 1.86}
 print(dic["Age"])
 """
 import os
+from types import CodeType
 
 
 
