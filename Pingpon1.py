@@ -54,8 +54,8 @@ def sblock():
         speed = 0                   # dann wird die geschwindkeit auf o gesetzt
         
 def ballbewegung():    # methode ballbewegung
-    global bx,by       # Position des Balles                         
-    bx += byspeed
+    global bx, by       # Position des Balles                         
+    bx += bxspeed
     by += byspeed
     
     
@@ -89,7 +89,7 @@ def ballblock():                       # wann, wo und wie der Ball abprallen sol
     if bx-brad <= 0:
         bxspeed *= -1
     if bx+brad >= x:
-        bxspeed *0 -1
+        bxspeed *= -1
     if by >= 435 and by <= 440:
         if bx >= sx-15  and bx <= sx+sbreite+15:  
             byspeed *= -1
