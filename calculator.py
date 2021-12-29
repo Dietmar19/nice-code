@@ -5,14 +5,14 @@ def output():
     if check1.get() + check2.get() + check3.get() + check4.get() > 1:
         print("You choose too many values")
     else:
-        number1=int(input1.get())
-        number2=int(input2.get())
+        number1=float(input1.get())
+        number2=float(input2.get())
     if check1.get():
-        output=number1+number2
-    if check2.get() is True:
-        output=number1-number2
+        output=round(number1+number2,2)
+    if check2.get():
+        output=round(number1-number2,2)
     if check3.get():
-        output=number1*number2
+        output=round(number1*number2,2)
     if check4.get():
         output=round(number1/number2,2)
     else:
