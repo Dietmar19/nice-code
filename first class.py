@@ -23,10 +23,16 @@ class Mensch:
         Mensch.durchsch=Mensch.gesamt_groesse/Mensch.anzahl
     def grüßen(self):
         print("Mein Name ist: ", self.Name)
+string_value = "Tobias-40-1.50"
+name,alter,größe=string_value.split("-")    # Markus fragen
+mensch3=Mensch(name,alter,größe)
+print(mensch3.__dict__)
 mensch1=Mensch("Dietmar",63,1.86)
 mensch1.grüßen()
 mensch2=Mensch("Dagmar",63,1.63)
 mensch2.grüßen()
+
+print(mensch3)
 print("Es existieren jetzt: ", Mensch.anzahl," Menschen mit einer Durschnittsgröße von: ", round(Mensch.durchsch,2))
 
 del mensch1
