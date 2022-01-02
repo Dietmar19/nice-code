@@ -21,12 +21,15 @@ print(python_daten["Telefon"] ["Mobil"])
 json_dump = json.dumps(python_daten, indent=4)
 print(type(json_dump), json_dump)
 
+print(10 * '-')
+
 #Json aus Datei lesen
 
 with open("C:\\Users\\Dietmar\\OneDrive\\Documents\\Repository Python\\nice-code\\daten.json", "r") as json_datei:
     print(type(json_datei))
     python_liste = json.load(json_datei)
     print(type(python_liste), python_liste)
-    print(python_liste[2] ["Vorname"])
-
+    # Python daten in eine neue Date schreiben
+with open("C:\\Users\\Dietmar\\OneDrive\\Documents\\Repository Python\\nice-code\\daten_ziel.json" , "w") as json_ziel:
+    json.dump(python_liste, json_ziel, indent=4)
 
