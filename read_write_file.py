@@ -1,6 +1,6 @@
 
 
-file = open("C:\\Users\\Dietmar\\OneDrive\\Documents\\Repository Python\\nice-codes\\staaten.csv")
+file = open("staaten.csv")
 
 content = file.read()
 
