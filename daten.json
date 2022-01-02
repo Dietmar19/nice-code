@@ -1,0 +1,29 @@
+[
+    {
+        "ID": 1,
+        "Vorname": "Klaus",
+        "Nachname": "Mustermann",
+        "Telefon": {
+            "Festnetz": "+49 03454 647",
+            "Mobil": "+49 4545343888"
+        }
+    },
+    {
+        "ID": 2,
+        "Vorname": "Bea",
+        "Nachname": "Ortmann",
+        "Telefon": {
+            "Festnetz": "+49 03454 529",
+            "Mobil": "+49 4545343234"
+        }
+    },
+    {
+        "ID": 3,
+        "Vorname": "Klaus",
+        "Nachname": "Mustermann",
+        "Telefon": {
+            "Festnetz": "+49 03454 534",
+            "Mobil": "+49 4545343978"
+        }
+    }
+]
