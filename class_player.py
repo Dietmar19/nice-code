@@ -16,10 +16,10 @@ class Player:
         if self._score <= 0:
             self._score = 0
             print("Game over")
-    point = property(get_score, set_score)
+    score = property(get_score, set_score)
 player1 = Player("Dietmar", 10000)
 print(player1.name)
-player1.point=-100
-print(player1.point)
+player1.score=-100
+print(player1.score)
 
 

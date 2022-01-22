@@ -32,7 +32,7 @@ mensch1.grüßen()
 mensch2=Mensch("Dagmar",63,1.63)
 mensch2.grüßen()
 
-print(mensch3)
+
 print("Es existieren jetzt: ", Mensch.anzahl," Menschen mit einer Durschnittsgröße von: ", round(Mensch.durchsch,2))
 
 del mensch1
