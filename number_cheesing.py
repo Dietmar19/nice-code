@@ -3,7 +3,7 @@ import random
 upper_bond= 100
 secret_number = random.randint(0,upper_bond)
 
-print("Es wurde eine Zufallszahl zwische 0 und  " + str(secret_number) + "generiert")
+print("Es wurde eine Zufallszahl zwische 0 und  " + str(upper_bond) + " generiert")
 print( "Deine Aufgabe ist es jetzt zu erraten, welche Zahl es ist")
 print("Viel Glück")
 guess= None
