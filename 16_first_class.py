@@ -20,13 +20,16 @@ class Mensch:
     def __del__(self):
         Mensch.anzahl-=1
         Mensch.gesamt_groesse-=self.Größe
-        Mensch.durchsch=Mensch.gesamt_groesse/Mensch.anzahl
+        if Mensch.anzahl == 0:
+            pass
+        else:
+            Mensch.durchsch=Mensch.gesamt_groesse/Mensch.anzahl
     def grüßen(self):
         print("Mein Name ist: ", self.Name)
-string_value = "Tobias-40-1.50"
-name,alter,größe=string_value.split("-")    # Markus fragen
-mensch3=Mensch(name,alter,größe)
-print(mensch3.__dict__)
+#string_value = "Tobias-40-1.50"
+#name,alter,größe=string_value.split("-")  
+##mensch3=Mensch(name,alter,größe)
+##print(mensch3.__dict__)
 mensch1=Mensch("Dietmar",63,1.86)
 mensch1.grüßen()
 mensch2=Mensch("Dagmar",63,1.63)

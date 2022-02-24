@@ -1,12 +1,12 @@
 import pandas
 import numpy
-"""
+
 d = pandas.read_csv("C:\\Users\\Dietmar\\OneDrive\\Documents\\Repository Python\\nice-code\\Orte.csv", delimiter=",")
 print(d)
-c = d.query("Region == 'Süd' & Bundesland == 'Bayern'")
-print(c)
+#c = d.query("Region == 'Süd' & Bundesland == 'Bayern'")
+#print(c)
 
-
+"""
 labels = ["a","b","c"]
 my_list = [10,20,30]
 arr = numpy.array([10,20,30])
@@ -22,7 +22,7 @@ sales_q2 = pandas.Series(data=[250,350,250,150],
 
 print(sales_q1+sales_q2)
 """
-
+"""
 columns = ["W","X","Y","Z"]
 index = ["A","B","C","D","E"]
 
@@ -44,3 +44,4 @@ print(df)
 df = df.iloc[0:2]
 #df = df.iloc["X"]  # Ausgabe Spalte
 print(df)
+"""

@@ -12,7 +12,7 @@ window.geometry('500x200') # setzt 200Pixel hoch, 00 Pixel breit
 
 window.title("GUI erster Versuch")
 label = Label(window,text="Python Tkinter")
-label.pack(expand=1)  # aktivierung des Labels
+##label.pack(expand=5)  # aktivierung des Labels
 
 frame=Frame(window,relief="ridge",borderwidth="20")
 

@@ -51,3 +51,10 @@ Orte_Nr,Ort,PLZ,Bundesland,Region,Nummernfeld
 51,'Erfurt','D-52375','Thueringen','Ost',4
 52,'Bamberg','D-52375','Bayern','Sued',3
 53,'Hamburg','D-52375','Hamburg','Nord',8
+54,'Muenster','D-84407','Nordrhein-Westfalen','West',4
+55,'Nuernberg','D-21394','Bayern','Sued',1
+56,'Stuttgart','D-41722','Baden Wuerttemberg','Sued',1
+57,'Trier','D-63893','Rheinland Pfalz','Sued',6
+58,'Ulm','D-62064','Baden Wuerttemberg','Sued',6
+60,'Wuerzburg','D-52375','Bayern','Ost',4
+61,'Augsburg','D-52375','Bayern','Sued',4

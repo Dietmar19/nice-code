@@ -19,8 +19,8 @@
     },
     {
         "ID": 3,
-        "Vorname": "Klaus",
-        "Nachname": "Mustermann",
+        "Vorname": "Sebastian",
+        "Nachname": "Meyer",
         "Telefon": {
             "Festnetz": "+49 03454 534",
             "Mobil": "+49 4545343978"
